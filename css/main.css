@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+
+/*  ---------------- BODY ---------------- */
+
+body{
+color: #fff;
+font-family: 'Raleway', sans-serif;
+}
+
+.font{
+  font-family: 'Indie Flower', cursive;
+}
+
+.section-title {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.boxula{
+  width: 200px;
+  border: 1px solid white;
+  padding: 3px;
+}
+
+.icons-list li {
+  margin-bottom: 5px;
+}
+
+.icons-list li i{
+  background-color: black;
+  color: #ddd;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.projects {
+  margin-bottom: 500px;
+}
+
+/* ---------------- HEADER   ----------------*/
+
+.header{
+  background: url('https://images.unsplash.com/photo-1508830524289-0adcbe822b40?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2022&q=80');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  background-attachment: fixed;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+}
+
+.header-overlay {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.header-text{
+  padding-top: 50px;
+  padding-right: 100px;
+  padding-left: 100px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.carousel {
+  margin-top: 20px;
+  height: 300px;
+  padding: 10px;
+}
+
+.carousel .carousel-item img {
+  width: 100px;
+}
+
+/* CARDS */
+
+.card-title-overlay {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+/*  ----------------  MEDIA QUERIES  ----------------  */
+
+@media(max-width: 500px){
+  .header h2{
+    font-size: 2rem;
+  }
+
+  .header h5{
+    font-size: 1.5rem;
+  }
+
+  .header-text{
+    padding-top: 50px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .boxula{
+    width: 150px;
+  }
+
+  .carousel {
+    height: 200px;
+    padding: 0;
+  }
+
+  
+}
