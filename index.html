@@ -7,6 +7,7 @@
   <!--Import materialize.css-->
   <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
   <link type="text/css" rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="/7.2 animate.css.css">
   <!--Let browser know website is optimized for mobile-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>BVM</title>
@@ -26,7 +27,7 @@
           <div class="header-text">
               <img src="/img/bvm.jpg" alt="" class="responsive-img circle boxula center">
               <h2 class="amber-text text-darken-4 font">Boxula Floskula</h2>
-              <h5><i>/ Web Developer /</i></h5>
+              <h5><i>/ Lorem ipsum dolor sit amet consectetur, adipisicing elit /</i></h5>
           </div>
 
           </div>
@@ -56,10 +57,10 @@
         </div>
         <div class="col l4 offset-l2 s12">
           <ul class="icons-list">
-            <li><i class="far fa-envelope fa-2x"></i> boxula@boxula.com</li>
-            <li><i class="fab fa-github fa-2x"></i> @boxula</li>
-            <li><i class="fab fa-codepen fa-2x"></i>  @boxula</li>
-            <li><i class="fab fa-linkedin fa-2x"></i>  @boxula</li>
+            <li class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s"><i class="far fa-envelope fa-2x z-depth-2" ></i> boxula@boxula.com</li>
+            <li class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s"><i class="fab fa-github fa-2x z-depth-2 "></i> @boxula</li>
+            <li class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s"><i class="fab fa-codepen fa-2x z-depth-2 "></i>  @boxula</li>
+            <li class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s"><i class="fab fa-linkedin fa-2x z-depth-2 "></i>  @boxula</li>
           </ul>
         </div>
       </div>
@@ -74,12 +75,19 @@
   <!--Import jQuery before materialize.js-->
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script src="/7.1 wow.min.js.js"></script>
   <script>
       $(document).ready(function(){
-      $('.carousel').carousel({
-        indicators: true
-      });
+        $('.carousel').carousel({
+          indicators: true
+        });
        });
+
+       // Init animation
+        $(document).ready(function() {
+          'use strict';
+          new WOW().init();
+        });
   </script>
 
 </body>
