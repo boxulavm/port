@@ -36,7 +36,7 @@ font-family: 'Raleway', sans-serif;
 }
 
 .footer{
-  background: #212121;
+  background: #000;
 }
 
 .footer-copyright{
@@ -46,28 +46,26 @@ padding-bottom: 5px;
 
 /* ---------------- HEADER   ----------------*/
 
+.header-container{
+  margin: 50px 100px 50px 100px;
+}
+
 .header{
-  background: url('https://images.unsplash.com/photo-1508830524289-0adcbe822b40?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2022&q=80');
+  background: url('https://images.unsplash.com/photo-1555066931-bf19f8fd1085?ixlib=rb-1.2.1&auto=format&fit=crop&w=1351&q=80');
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: cover;
-  background-attachment: fixed;
   -moz-background-size: cover;
   -webkit-background-size: cover;
 }
 
 .header-overlay {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 .header-text{
-  padding-top: 50px;
-  padding-bottom: 50px;
-  padding-right: 100px;
-  padding-left: 100px;
-  margin-top: 100px;
-  margin-bottom: 100px;
-  background-color: rgba(0, 0, 0, 0.6);
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 /* Crousel */
@@ -80,17 +78,56 @@ padding-bottom: 5px;
   font-size: 120px ;
 }
 
-/* CARDS */
+.fa-react {
+  animation: App-logo-spin infinite 20s linear;
+}
 
-.card-title-overlay {
-  background-color: rgba(0, 0, 0, 0.9);
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 /* footer */
 
+.icons-list li {
+  margin-bottom: 5px;
+}
+
+.icons-list li i{
+  background-color: black;
+  color: #ff6f00;
+  padding: 10px;
+  border-radius: 50%;
+  transition: 0.2s ease-in-out;
+}
+
+.icons-list li i:hover{
+color: black;
+background-color: #ff6f00;
+transition: 0.6s ease-in-out;
+}
+
+.footer{
+  padding-top: 20px;
+  background: #202020;
+}
+
+.footer-copyright{
+padding-top: 10px;
+padding-bottom: 5px;
+}
+
 /*  ----------------  MEDIA QUERIES  ----------------  */
 
-@media(max-width: 500px){
+@media(max-width: 550px){
+  .header-container{
+    margin: 0px 0px 0px 0px;
+  }
+
   .header h2{
     font-size: 2rem;
   }
