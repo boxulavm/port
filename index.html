@@ -12,7 +12,7 @@
   <title>BVM</title>
 </head>
 
-<body class="black" >
+<body>
 
   <!-- HEADER -->
 
@@ -24,18 +24,8 @@
 
           <div class="header-text z-depth-4">
               <img src="/img/bvm.jpg" alt="" class="responsive-img circle boxula center">
-              <h2 class="blue-text font">Boxula Floskula</h2>
+              <h2 class="amber-text text-darken-4 font">Boxula Floskula</h2>
               <h5><i>Web Developer</i></h5>
-
-              
-              <div class="carousel">
-                <a class="carousel-item" href="#one!"><img src='/img/html5.png' class="responsive-img"></a>
-                <a class="carousel-item" href="#two!"><img src='/img/css.png' class="responsive-img"></a>
-                <a class="carousel-item" href="#three!"><i class="fab fa-js-square fa-5x yellow-text darken-1"></i></a>
-                <a class="carousel-item" href="#four!"> <i class="fab fa-react fa-5x blue-text darken-1"></i></a>
-                <a class="carousel-item" href="#five!"><i class="fab fa-npm fa-5x red-text darken-1"></i></a>
-              </div>
-      
           </div>
 
           </div>
@@ -44,74 +34,22 @@
     </div>
   </div>
 
-  <!-- PROJECTS -->
-
-  <div class="row black darken-4 ">
-    <h4 class="center-align blue-text section-title">Latest Projects</h4>
-
-    <div class="container projects">
-    <div class="col l4 m6">
-
-        <div class="card z-depth-4">
-          <div class="card-image">
-            <img src="https://source.unsplash.com/640x320/?computer">
-            <span class="card-title card-title-overlay"><small>card title</small></span>
-          </div>
-          <div class="card-content grey darken-2">
-            <p>I am a very simple card. I am good at containing small bits of information.
-            I am convenient because I require little markup to use effectively.</p>
-          </div>
-          <div class="card-action grey darken-3">
-            <a href="#">View Project</a>
-            <a href="#"> <i class="fab fa-github"></i> Code</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="col l4 m6">
-          <div class="card z-depth-4">
-            <div class="card-image">
-              <img src='https://source.unsplash.com/640x320/?technology'>
-              <span class="card-title card-title-overlay"><small>card title</small></span>
-            </div>
-            <div class="card-content grey darken-2">
-              <p>I am a very simple card. I am good at containing small bits of information.
-              I am convenient because I require little markup to use effectively.</p>
-            </div>
-            <div class="card-action grey darken-3">
-              <a href="#">View Project</a>
-              <a href="#"><i class="fab fa-github"></i> Code</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col l4 m6">
-            <div class="card z-depth-4">
-              <div class="card-image">
-                <img src="https://source.unsplash.com/640x320/?coding">
-                <span class="card-title card-title-overlay"><small>card title</small></span>
-              </div>
-              <div class="card-content grey darken-2">
-                <p>I am a very simple card. I am good at containing small bits of information.
-                I am convenient because I require little markup to use effectively.</p>
-              </div>
-              <div class="card-action grey darken-3">
-                <a href="#">View Project</a>
-                <a href="#"><i class="fab fa-github"></i> Code</a>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
+  <!-- Carousel -->
+  <div class="carousel center-align ">
+    <h5 class="amber-text text-darken-4 font">Technologies</h5>
+    <a class="carousel-item" href="#one!"><img src='/img/html5.png'></a>
+    <a class="carousel-item" href="#two!"><img src='/img/css.png'></a>
+    <a class="carousel-item" href="#three!"><i class="fab fa-js-square icon yellow-text darken-1"></i></a>
+    <a class="carousel-item" href="#four!"> <i class="fab fa-react icon blue-text darken-1"></i></a>
+    <a class="carousel-item" href="#five!"><i class="fab fa-npm icon red-text darken-1"></i></a>
   </div>
- 
+
   <!-- Footer -->
-  <footer class="page-footer grey darken-4">
+  <div class="footer">
       <div class="container">
         <div class="row">
           <div class="col l6 s12">
-            <h5 class="blue-text">Footer Content</h5>
+            <h5 class="font amber-text text-darken-4">Footer Content</h5>
             <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
           </div>
           <div class="col l4 offset-l2 s12">
@@ -127,18 +65,20 @@
       </div>
       <div class="footer-copyright black">
         <div class="container">
-        <span class="blue-text">&copy;</span> 2019 by: Boxula Floskula
+        <span class="amber-text text-darken-4">&copy;</span> 2019 by: Boxula Floskula
         </div>
       </div>
-    </footer>
+    </div>
 
   <!--Import jQuery before materialize.js-->
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <script type="text/javascript" src="js/materialize.min.js"></script>
   <script>
       $(document).ready(function(){
-      $('.carousel').carousel();
-    });
+      $('.carousel').carousel({
+        indicators: true
+      });
+       });
   </script>
 
 </body>
