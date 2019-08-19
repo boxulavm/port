@@ -45,9 +45,12 @@ padding-bottom: 5px;
 }
 
 /* ---------------- HEADER   ----------------*/
+.upper{
+  margin: 3px 3px;
+}
 
 .header-container{
-  margin: 50px 100px 50px 100px;
+  margin: 0px 100px 50px 100px;
 }
 
 .header{
@@ -91,7 +94,12 @@ padding-bottom: 5px;
   }
 }
 
-/* footer */
+/* PORTFOLIO */
+.portfolio{
+  margin-top: 50px;
+}
+
+/* FOOTER */
 
 .icons-list li {
   margin-bottom: 5px;
