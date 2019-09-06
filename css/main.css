@@ -18,6 +18,10 @@ font-family: 'Raleway', sans-serif;
   padding-bottom: 60px;
 }
 
+.certificates{
+
+}
+
 .boxula{
   width: 200px;
   border: 1px solid white;
@@ -44,10 +48,8 @@ padding-top: 10px;
 padding-bottom: 5px;
 }
 
+
 /* ---------------- HEADER   ----------------*/
-.upper{
-  margin: 3px 3px;
-}
 
 .header-container{
   margin: 0px 100px 50px 100px;
